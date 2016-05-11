@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.benj.training.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainStartedServiceButton"
+        android:text="@string/mainStartedServiceButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainBoundServiceButton"
+        android:text="@string/mainBoundServiceButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainStartedServiceButton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainProgConcButton"
+        android:text="@string/mainProgConcButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainBoundServiceButton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainPersistanceButton"
+        android:text="@string/mainPersistanceButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainProgConcButton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainPersistance2Button"
+        android:text="@string/mainPersistance2Button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainPersistanceButton"
+        />
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainBCRButton"
+        android:text="@string/mainBCRButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainPersistance2Button"
+        />
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainConnResButton"
+        android:text="@string/mainConnResButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainBCRButton"
+        />
+
+</RelativeLayout>

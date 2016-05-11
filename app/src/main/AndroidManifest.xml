@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.benj.training">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartedServiceActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyIntentService"
+            android:exported="false" />
+        <service
+            android:name=".MessengerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".BoundServiceActivity" />
+        <activity android:name=".ExampleActivity" />
+
+        <service
+            android:name=".ExampleService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ProgConcActivity" />
+        <activity
+            android:name=".PersistanceActivity"
+            android:label="@string/title_activity_persistance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".MySettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.benj.training.PersistanceActivity" />
+        </activity>
+        <activity android:name=".Persistance2Activity" />
+        <activity android:name=".AuditorActivity" />
+        <activity android:name=".RecepteursIntentionActivity" />
+
+        <receiver android:name=".RecepteursIntentionActivity$MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <!-- Si l'application est installée sur stockage externe comme une carte SD : -->
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ConnResActivity"></activity>
+
+    </application>
+
+</manifest>

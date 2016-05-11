@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Training</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_started_service">StartedServiceActivity</string>
+    <string name="mainStartedServiceButton">Service démarré</string>
+    <string name="startedServiceButton">Démarrer un service</string>
+    <string name="stopStartedServiceButton">Stopper le service</string>
+    <string name="mainBoundServiceButton">Service distant</string>
+    <string name="startedIntentServiceButton">Démarrer un IntentService</string>
+    <string name="stopStartedIntentServiceButton">Stopper l\'IntentService</string>
+    <string name="startedIntentService">Service démarré intent</string>
+    <string name="title_activity_bound_service">BoundServiceActivity</string>
+    <string name="boundServiceStartButton">Démarrer le service distant</string>
+    <string name="boundServiceResponseTV">Démarrez le Bound Service pour avoir sa réponse</string>
+    <string name="boundServiceDetachButton">Détacher le service distant</string>
+    <string name="boundGetResponse">Obtenir la réponse du service distant</string>
+    <string name="titleMessenger">Utiliser un messenger</string>
+    <string name="startMessenger">Démarrer le messenger</string>
+    <string name="messengerResponse">Texte en minuscule</string>
+    <string name="titleBinder">Extension de la classe Binder</string>
+
+
+    <string name="service_started">Example Service started</string>
+    <string name="service_label">Example Service Label</string>
+    <string name="example1">Example 1</string>
+    <string name="programmationConcourrente">La Programmation Concurrente</string>
+    <string name="mainProgConcButton">Programmation concurrente</string>
+    <string name="asyncStarted">Démarrage de  la tâche asynchrone</string>
+    <string name="asyncProgress">Tâche asynchrone en cours (progress)</string>
+    <string name="title_activity_persistance">PersistanceActivity</string>
+    <string name="mainPersistanceButton">Persistance des données</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="mainPersistance2Button">Persistance des données 2</string>
+    <string name="titlePersistance2Text">Persistance - SQLite</string>
+    <string name="addExampleListText">Ajouter liste prédéfinie</string>
+    <string name="deleteListText">Effacer la liste</string>
+    <string name="auditorTitle">Détails de l\'auditeur</string>
+    <string name="auditorName">Nom :</string>
+    <string name="auditorNote1">Note 1 :</string>
+    <string name="auditorFirstname">Prénom : </string>
+    <string name="auditorNote2">Note 2 :</string>
+    <string name="auditorNote3">Note 3 :</string>
+    <string name="saveAuditorButtonText">Modifier</string>
+    <string name="auditorBackButton">Retour</string>
+    <string name="randAuditor">Auditeur au hasard</string>
+    <string name="listDescribe">Cliquez sur un nom!</string>
+    <string name="BCRTitle">Les récepteurs d\'intention</string>
+    <string name="mainBCRButton">Broadcast Receiver</string>
+    <string name="mainConnResButton">Connectivité réseau</string>
+</resources>
